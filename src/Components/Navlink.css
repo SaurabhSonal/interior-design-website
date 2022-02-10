@@ -1,0 +1,9 @@
+.navigation {
+  color: brown;
+  display: flex; /* it allign the document horizontally */
+ }
+.navleft{
+    padding-left: 15px;
+    cursor: pointer;
+    
+}

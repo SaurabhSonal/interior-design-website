@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import reactDom from 'react-dom';
+// to use the renderdom we import the reactdom.
+
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+// this line healps use the app in the content 
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+import './Index.css';
+
+reactDom.render(
+//react dom is getting imported from the react-dom. Render is trasferor/lautana/saupne wala.
+
+    <App/>,
+    // to show the app.js on the index.js ( right here),
+
+    document.getElementById('root')
+    // expoting the whole page and its getting  fetched by the index.html in the public folder.
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
